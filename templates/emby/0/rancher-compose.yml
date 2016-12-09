@@ -1,0 +1,20 @@
+.catalog:
+  name: emby
+  version: stable
+  description: Emby Media Browser
+  uuid: emby-0
+  questions:
+    - variable: EMBY_TIMEZONE
+      label: Timezone
+      description: Specify the timezone used by the application
+      required: true
+      type: string
+      default: "Europe/Madrid"
+    - variable: EMBY_VOLUME
+      label: Volume
+      description: Set the location of your media. Will be mounted as /media inside the container.
+      required: true
+      default: /home/YOURUSER/Videos
+      type: string
+emby:
+  scale: 1
