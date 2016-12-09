@@ -1,6 +1,6 @@
 .catalog:
   name: emby
-  version: stable
+  version: v3.0.0
   description: Emby Media Browser
   uuid: emby-0
   questions:
