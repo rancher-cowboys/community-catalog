@@ -1,6 +1,6 @@
 .catalog:
   name: "HackMD"
-  version: "v1.0.0"
+  version: v0.4.5
   description: "Realtime collaborative markdown notes on all platforms"
   uuid: hackmd-0
   questions:
